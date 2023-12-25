@@ -4,7 +4,6 @@ const Header = ()=>{
     <div>
       <header>
         <h1>task tracker</h1>
-        
       </header>
     </div>
   )
