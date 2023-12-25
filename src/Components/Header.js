@@ -1,11 +1,16 @@
+import PropTypes from 'prop-types'
 
-const Header = ()=>{
+const Header = ({title})=>{
   return (
     <div>
       <header>
-        <h1>very nice</h1>
+        <h1>{title}</h1>
       </header>
     </div>
   )
+}
+
+Header.PropTypes={
+  title:PropTypes.string,
 }
 export default Header;
