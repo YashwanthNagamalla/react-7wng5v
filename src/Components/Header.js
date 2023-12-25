@@ -3,7 +3,7 @@ const Header = ()=>{
   return (
     <div>
       <header>
-        <h1>task tracker</h1>
+        <h1>very nice</h1>
       </header>
     </div>
   )
