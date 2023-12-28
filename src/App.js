@@ -1,11 +1,13 @@
-import React from "react";
-import "./style.css";
+// import React from 'react'
+import Header from './Components/Header'
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Header title={'ffekfkbf'}/>
     </div>
   );
 }
+
+
+export default App
