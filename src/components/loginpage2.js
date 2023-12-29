@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const AppContainer = styled.div`
+// background-color:#1A1110;
 background: linear-gradient(to right, #08203e, #557c93);
 background-size: cover;
   background-position: center;
@@ -68,7 +69,7 @@ const Button = styled.button`
   }
 `;
 
-const Login = () => {
+const Login2 = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
@@ -98,7 +99,7 @@ const Login = () => {
 
       if (data.success) {
         // Redirect or perform actions upon successful login
-        window.location.href = '/Navbar'; // Replace with your actual route
+        window.location.href = '/Navbar2'; // Replace with your actual route
       } else {
         setError(data.message);
       }
@@ -146,10 +147,10 @@ const Login = () => {
         </Form>
         {error && <p style={{ color: 'red' }}>{error}</p>}
         <br />
-        <Link to="/signup">Don't have an account? Sign up</Link>
+        <Link to="/signup2">Don't have an account? Sign up</Link>
       </SignupContainer>
     </AppContainer>
   );
 };
 
-export default Login;
+export default Login2;
