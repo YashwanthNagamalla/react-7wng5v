@@ -77,11 +77,6 @@ const Navbar = ({ children }) => {
             </NavbarLink>
           </NavbarItem>
           <NavbarItem>
-            <NavbarLink to="/advocateslist" >
-              Advocates list
-            </NavbarLink>
-          </NavbarItem>
-          <NavbarItem>
             <NavbarLink to="/messages" >
               Messages
             </NavbarLink>
